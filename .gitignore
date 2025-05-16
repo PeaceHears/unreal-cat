@@ -1,13 +1,13 @@
 # Core Unreal Engine folders generated at build/run time
 ###############################################################################
 # Binary outputs
-/Binaries/
+*/Binaries/
 
 # Build-time intermediates
-/Build/
-/Intermediate/
-/Saved/
-/DerivedDataCache/
+*/Build/
+*/Intermediate/
+*/Saved/
+*/DerivedDataCache/
 
 # Project-level Visual Studio & Xcode files
 *.sln
@@ -23,14 +23,14 @@ xcuserdata/
 ###############################################################################
 # Unreal asset-cooking & platform-specific output
 ###############################################################################
-/Saved/Cooked/
+*/Saved/Cooked/
 **/Saved/Cooked*/
 **/Binaries/Android/
-/Binaries/IOS/
-/Binaries/Linux/
-/Binaries/Mac/
-/Binaries/Win64/
-/Binaries/Win32/
+*/Binaries/IOS/
+*/Binaries/Linux/
+*/Binaries/Mac/
+*/Binaries/Win64/
+*/Binaries/Win32/
 
 ###############################################################################
 # User-specific configs & logs
@@ -41,8 +41,8 @@ xcuserdata/
 *.orig
 *.bak
 # Crash reports
-/Saved/Crashes/
-/Saved/Logs/
+*/Saved/Crashes/
+*/Saved/Logs/
 
 ###############################################################################
 # Optional: ignore generated project files if you recreate them frequently
@@ -56,7 +56,7 @@ xcuserdata/
 
 ###############################################################################
 # Optional: Per-force & SVN leftovers (if you migrate repos)
-/.p4config
+*/.p4config
 .p4ignore
 *.p4s
 .svn/
