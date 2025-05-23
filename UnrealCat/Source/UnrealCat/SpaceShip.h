@@ -6,7 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "SpaceShip.generated.h"
 
-UCLASS(Blueprintable)
+UCLASS()
 class UNREALCAT_API ASpaceShip : public APawn
 {
 	GENERATED_BODY()
@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
+public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
